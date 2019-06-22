@@ -1,0 +1,1 @@
+{"index.js":"function diffArray(arr1, arr2) {\n  return arr1\n    .filter(el => !arr2.includes(el))\n    .concat(\n      arr2.filter(el => !arr1.includes(el))\n    )\n}\n\ndiffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);"}
