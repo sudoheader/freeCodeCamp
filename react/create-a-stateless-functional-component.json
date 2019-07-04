@@ -1,0 +1,1 @@
+{"index.jsx":"const MyComponent = function() {\n  return (\n    <div className='myClass'>Some text</div>\n  );\n}"}
